@@ -9,9 +9,12 @@ function App() {
   // let counter = 15;
 
   const addValue = () => {
-    if (counter <= 19) {
-      counter += 1;
-    }
+    
+      counter = counter + 1;
+      counter = counter + 1;
+      counter = counter + 1;
+      counter = counter + 1;
+    
     
     setCounter(counter)
   }

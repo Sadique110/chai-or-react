@@ -2,7 +2,7 @@
 
 function Chai() {
     return(
-        <h1>Hello chai or code</h1>
+        <h1>Hello chai or code !</h1>
     )
 }
 

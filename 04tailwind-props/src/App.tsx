@@ -1,19 +1,20 @@
 // import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from './assets/vite.svg'
+// import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
   return (
     <>
-    <h6  class="text-3xl font-bold underline ">start tailwind setupp</h6>
-    <button class="flex-10 flx-40">click me</button>
     <div>
-      <header className="header">
-        <h1>My React Website</h1>
-        <p>Simple and clean design</p>
-      </header>
+    <h6 className="text-3xl font-bold underline">
+        Start Tailwind setup
+      </h6>
+
+      <button className="flex gap-4 px-4 py-2 bg-blue-500 text-white">
+        Click me
+      </button>
 
       <nav className="nav">
         <a href="#">Home</a>
